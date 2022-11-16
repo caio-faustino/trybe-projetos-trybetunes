@@ -27,7 +27,9 @@ class Header extends React.Component {
       >
         {loading ? (<>Carregando...</>) : (<p data-testid="header-user-name">{nome}</p>) }
         <Link to="/search" data-testid="link-to-search"> Search</Link>
+        {' '}
         <Link to="/favorites" data-testid="link-to-favorites">Favorites</Link>
+        {' '}
         <Link to="/profile" data-testid="link-to-profile">Profile</Link>
       </header>
     );
