@@ -45,7 +45,7 @@ class Search extends React.Component {
     const { nome, validação, albums, nomeDigitado } = this.state;
     return (
       <div data-testid="page-search">
-        <Header />
+        <header />
         search
         <form>
           <labe>
