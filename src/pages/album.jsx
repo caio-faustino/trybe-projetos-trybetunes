@@ -35,9 +35,11 @@ class Album extends React.Component {
     return (
       <div data-testid="page-album">
         <Header />
-        <h3 data-testid="artist-name">{ artistName }</h3>
-        <p data-testid="album-name">{ album }</p>
+
+        <h3 data-testid="artist-name">{artistName}</h3>
+        <p data-testid="album-name">{album}</p>
         <img src={ imagem } alt={ artistName } />
+
         <div>
           {
             musicas.map((musica) => (
